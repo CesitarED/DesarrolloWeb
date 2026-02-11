@@ -1,0 +1,26 @@
+h1{
+    text-align: center;
+    margin-top: 100px ;
+}
+#myArkanoid{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    z-index: 1;
+}
+#myArkanoidGameOver{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background-image: url("./images/image.jpg");
+    background-size: cover;
+    cursor: pointer;
+    display: none;
+    z-index: 2;
+}

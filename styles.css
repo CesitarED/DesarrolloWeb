@@ -1,7 +1,14 @@
-h1{
+hh1{
     text-align: center;
     margin-top: 100px ;
 }
+
+body {
+    background-color: rgb(61, 62, 63);
+    margin: 0;
+    padding: 0;
+}
+
 #myArkanoid{
     position: absolute;
     top: 0;
@@ -10,7 +17,10 @@ h1{
     right: 0;
     margin: auto;
     z-index: 1;
+    box-shadow: 0 0 30px rgba(0, 212, 255, 0.3);
+    background-color: rgb(0, 0, 0);
 }
+
 #myArkanoidGameOver{
     position: absolute;
     top: 0;
